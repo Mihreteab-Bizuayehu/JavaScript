@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(#FBAB7E,#F7CE68);
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #fff;
+    padding:30px;
+    margin:10px 40px;
+    width: 60%;
+    line-height: 25px;
+}
+::-webkit-scrollbar{
+    background: linear-gradient( green,red,yellow);
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#08AEEA,#2AF598);
+    border-radius: 50px;
+
+}
