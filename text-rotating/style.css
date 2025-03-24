@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ .text{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .rotate{
+    height: 50px;
+    line-height: 50px;
+    border: 0px solid #fefefe;
+    overflow: hidden;
+ }
+ .rotate span{
+    position: relative;
+    font-size: 45px;
+    color: darkorange;
+    font-weight: bold;
+   animation:animate 10s ease-in-out infinite ;
+ }
+
+ @keyframes animate{
+    0%,100%{
+        top:0;
+    }
+    20%{
+        top:0;
+    }
+    25%{
+        top:-55px;
+    }
+    45%{
+        top:-55px;
+    }
+    50%{
+        top:-110px;
+    }
+    70%{
+        top:-110px;
+    }
+    75%{
+        top:-160px;
+    }
+    95%{
+        top:-160px;
+    }
+
+ }

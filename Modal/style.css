@@ -1,0 +1,252 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #333;
+}
+
+.container {
+  width: 100%;
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  position: relative;
+}
+
+.navbar {
+  padding: 60px 15%;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  background-color: #333;
+  position: fixed;
+  z-index: 999;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.logo {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo > p {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+.logo > p > span {
+  color: chocolate;
+}
+.nav-list {
+  width: 50%;
+  height: 100%;
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.nav-list > li {
+  padding: 10px;
+}
+.nav-list > li:hover {
+  border-bottom: 2px solid chocolate;
+  border-radius: 5px;
+}
+.nav-list a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.btn {
+  padding: 15px 25px;
+  border: none;
+  border-radius: 15px;
+  background-color: chocolate;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.btn:hover {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid chocolate;
+}
+
+.modal-form {
+  width: 100%;
+  padding: 60px 15%;
+  margin-top: 70px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+.scroll {
+  width: 100%;
+  padding: 60px 15%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  color: #ccc;
+}
+.home {
+  width: 100%;
+  height: 500px;
+  background-color: #444;
+  padding-top: 120px;
+  h1 {
+    font-size: 26px;
+    font-weight: 800;
+    color: chocolate;
+    text-align: center;
+  }
+  p {
+    padding: 20px;
+    font-weight: 500;
+  }
+}
+.about {
+  width: 100%;
+  padding-top: 120px;
+  height: 500px;
+  background-color: #444;
+  h1 {
+    font-size: 26px;
+    font-weight: 800;
+    color: chocolate;
+    text-align: center;
+  }
+  p {
+    padding: 20px;
+    font-weight: 500;
+  }
+}
+.portfolio {
+  width: 100%;
+  padding-top: 120px;
+  height: 500px;
+  background-color: #444;
+  h1 {
+    font-size: 26px;
+    font-weight: 800;
+    color: chocolate;
+    text-align: center;
+  }
+  p {
+    padding: 20px;
+    font-weight: 500;
+  }
+}
+.contact {
+  width: 100%;
+  padding-top: 120px;
+  height: 500px;
+  background-color: #444;
+  h1 {
+    font-size: 26px;
+    font-weight: 800;
+    color: chocolate;
+    text-align: center;
+  }
+  p {
+    padding: 20px;
+    font-weight: 500;
+  }
+}
+.registeration {
+  width: 60%;
+  display: none;
+  flex-direction: column;
+  row-gap: 20px;
+  padding: 40px 10%;
+  background-color: #333;
+  box-shadow: inset 3px 3px 7px #444, inset -3px -3px 7px #444;
+  position: relative;
+}
+.register {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.register > p,
+.login > p {
+  font-size: 24px;
+  font-weight: 700;
+  color: chocolate;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.signup {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  width: 100%;
+}
+.signup label {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 14px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.signup input {
+  padding: 20px;
+  font-size: 14px;
+  background: transparent;
+  border-radius: 10px;
+  color: #fff;
+  outline: none;
+  border: none;
+  box-shadow: 3px 3px 7px #444, -3px -3px 7px #444;
+}
+.xmark {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 20px;
+  margin-right: 20px;
+  font-size: 36px;
+  color: #fff;
+  background-color: transparent;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.top{
+  font-size: 15px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  padding: 10px;
+  border-radius:50% ;
+  bottom: 100px;
+  z-index: 9999;
+  right: 60px;
+  color: #fff;
+  background-color: #888;
+  cursor: pointer;
+
+}

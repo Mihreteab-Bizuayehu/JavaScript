@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal and Scrolling</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <nav class="navbar">
+            <div class="logo">
+                <p>mera <span>bizu</span> </p>
+            </div>
+            <ul class="nav-list">
+                <li id="home-link" onclick="scroll('.home')" ><a href="#home">home</a></li>
+                <li id="about-link" onclick="scroll('.about')" ><a href="#about">about</a></li>
+                <li id="portfolio-link" onclick="scroll('.portfolio')" ><a href="#portfolio">portfolio</a></li>
+                <li id="contact-link" onclick="scroll('.contact')" ><a href="#contact">contact</a></li>
+                
+            </ul>
+            <button class="btn" id="signup" >sign up</button>
+        </nav>
+        <section class="scroll">
+            <div class="home">
+                <h1>Home</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem. Fugit dolorem deserunt quasi praesentium sit veniam voluptates a assumenda quo expedita soluta quae vero placeat atque perferendis, possimus voluptatum.
+                Commodi consequatur cumque ex ipsam autem quibusdam ad eius dolorem deserunt veritatis placeat non a quae reiciendis repellendus enim ullam, dolor perspiciatis natus? Repudiandae, voluptas possimus ducimus vel dicta quod?
+                Optio sapiente itaque molestiae, commodi repudiandae placeat soluta quaerat libero consequuntur velit nam incidunt expedita. Tempore, tenetur dolorem? Reprehenderit iusto corrupti sequi nam repudiandae quo ea amet beatae veniam inventore?
+                Consequatur perspiciatis dolores nesciunt officiis earum quia, veritatis inventore autem vero eos debitis incidunt ipsum ad quis? Temporibus dolorem facere, deserunt alias id, exercitationem, asperiores sapiente accusamus harum praesentium consectetur!
+                Est optio quia a ipsa quae, tempore possimus cumque, sapiente, voluptates esse dolore totam? Commodi molestias officia quod, repudiandae porro blanditiis sunt magnam quaerat reiciendis eveniet ad quos quas consectetur.
+                Corporis quia ex dolorem voluptatem consequuntur aut ea accusamus quaerat dolorum? Quam cum doloremque, libero eos cupiditate nobis quod aliquam quaerat dolor repellat laudantium, officiis nemo impedit asperiores, est eaque.
+                Expedita ratione tempora eos eius veniam tenetur fugiat corrupti minus illo ipsum aliquid recusandae at in, saepe vitae odio veritatis soluta ut? Possimus, nihil molestias! Illo ex sapiente unde praesentium?
+                Doloremque, esse? Eaque nemo hic consequuntur dolor harum odit nostrum, fuga veniam at rerum architecto voluptas fugit vel, illum sint asperiores quas odio perferendis tenetur quis? Quas recusandae odit at!</p>
+            </div>
+            <div class="about">
+                 <h1>About</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem. Fugit dolorem deserunt quasi praesentium sit veniam voluptates a assumenda quo expedita soluta quae vero placeat atque perferendis, possimus voluptatum.
+                Commodi consequatur cumque ex ipsam autem quibusdam ad eius dolorem deserunt veritatis placeat non a quae reiciendis repellendus enim ullam, dolor perspiciatis natus? Repudiandae, voluptas possimus ducimus vel dicta quod?
+                Optio sapiente itaque molestiae, commodi repudiandae placeat soluta quaerat libero consequuntur velit nam incidunt expedita. Tempore, tenetur dolorem? Reprehenderit iusto corrupti sequi nam repudiandae quo ea amet beatae veniam inventore?
+                Consequatur perspiciatis dolores nesciunt officiis earum quia, veritatis inventore autem vero eos debitis incidunt ipsum ad quis? Temporibus dolorem facere, deserunt alias id, exercitationem, asperiores sapiente accusamus harum praesentium consectetur!
+                Est optio quia a ipsa quae, tempore possimus cumque, sapiente, voluptates esse dolore totam? Commodi molestias officia quod, repudiandae porro blanditiis sunt magnam quaerat reiciendis eveniet ad quos quas consectetur.
+                Corporis quia ex dolorem voluptatem consequuntur aut ea accusamus quaerat dolorum? Quam cum doloremque, libero eos cupiditate nobis quod aliquam quaerat dolor repellat laudantium, officiis nemo impedit asperiores, est eaque.
+                Expedita ratione tempora eos eius veniam tenetur fugiat corrupti minus illo ipsum aliquid recusandae at in, saepe vitae odio veritatis soluta ut? Possimus, nihil molestias! Illo ex sapiente unde praesentium?
+                Doloremque, esse? Eaque nemo hic consequuntur dolor harum odit nostrum, fuga veniam at rerum architecto voluptas fugit vel, illum sint asperiores quas odio perferendis tenetur quis? Quas recusandae odit at!</p>
+            </div>
+            <div class="portfolio">
+                 <h1>Portfolio</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem. Fugit dolorem deserunt quasi praesentium sit veniam voluptates a assumenda quo expedita soluta quae vero placeat atque perferendis, possimus voluptatum.
+                Commodi consequatur cumque ex ipsam autem quibusdam ad eius dolorem deserunt veritatis placeat non a quae reiciendis repellendus enim ullam, dolor perspiciatis natus? Repudiandae, voluptas possimus ducimus vel dicta quod?
+                Optio sapiente itaque molestiae, commodi repudiandae placeat soluta quaerat libero consequuntur velit nam incidunt expedita. Tempore, tenetur dolorem? Reprehenderit iusto corrupti sequi nam repudiandae quo ea amet beatae veniam inventore?
+                Consequatur perspiciatis dolores nesciunt officiis earum quia, veritatis inventore autem vero eos debitis incidunt ipsum ad quis? Temporibus dolorem facere, deserunt alias id, exercitationem, asperiores sapiente accusamus harum praesentium consectetur!
+                Est optio quia a ipsa quae, tempore possimus cumque, sapiente, voluptates esse dolore totam? Commodi molestias officia quod, repudiandae porro blanditiis sunt magnam quaerat reiciendis eveniet ad quos quas consectetur.
+                Corporis quia ex dolorem voluptatem consequuntur aut ea accusamus quaerat dolorum? Quam cum doloremque, libero eos cupiditate nobis quod aliquam quaerat dolor repellat laudantium, officiis nemo impedit asperiores, est eaque.
+                Expedita ratione tempora eos eius veniam tenetur fugiat corrupti minus illo ipsum aliquid recusandae at in, saepe vitae odio veritatis soluta ut? Possimus, nihil molestias! Illo ex sapiente unde praesentium?
+                Doloremque, esse? Eaque nemo hic consequuntur dolor harum odit nostrum, fuga veniam at rerum architecto voluptas fugit vel, illum sint asperiores quas odio perferendis tenetur quis? Quas recusandae odit at!</p>
+            </div>
+            <div class="contact">
+                 <h1>Contact</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quidem. Fugit dolorem deserunt quasi praesentium sit veniam voluptates a assumenda quo expedita soluta quae vero placeat atque perferendis, possimus voluptatum.
+                Commodi consequatur cumque ex ipsam autem quibusdam ad eius dolorem deserunt veritatis placeat non a quae reiciendis repellendus enim ullam, dolor perspiciatis natus? Repudiandae, voluptas possimus ducimus vel dicta quod?
+                Optio sapiente itaque molestiae, commodi repudiandae placeat soluta quaerat libero consequuntur velit nam incidunt expedita. Tempore, tenetur dolorem? Reprehenderit iusto corrupti sequi nam repudiandae quo ea amet beatae veniam inventore?
+                Consequatur perspiciatis dolores nesciunt officiis earum quia, veritatis inventore autem vero eos debitis incidunt ipsum ad quis? Temporibus dolorem facere, deserunt alias id, exercitationem, asperiores sapiente accusamus harum praesentium consectetur!
+                Est optio quia a ipsa quae, tempore possimus cumque, sapiente, voluptates esse dolore totam? Commodi molestias officia quod, repudiandae porro blanditiis sunt magnam quaerat reiciendis eveniet ad quos quas consectetur.
+                Corporis quia ex dolorem voluptatem consequuntur aut ea accusamus quaerat dolorum? Quam cum doloremque, libero eos cupiditate nobis quod aliquam quaerat dolor repellat laudantium, officiis nemo impedit asperiores, est eaque.
+                Expedita ratione tempora eos eius veniam tenetur fugiat corrupti minus illo ipsum aliquid recusandae at in, saepe vitae odio veritatis soluta ut? Possimus, nihil molestias! Illo ex sapiente unde praesentium?
+                Doloremque, esse? Eaque nemo hic consequuntur dolor harum odit nostrum, fuga veniam at rerum architecto voluptas fugit vel, illum sint asperiores quas odio perferendis tenetur quis? Quas recusandae odit at!</p>
+            </div>
+            
+        </section>
+
+        <div class="modal-form">
+            <div class="registeration">
+                <button class="xmark" >X</button>
+                <form class="register">
+                    <p>registration form</p>
+                    <div class="signup">
+                        <label for="name">full name</label>
+                        <input type="text" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="signup">
+                        <label for="email">email</label>
+                        <input type="email" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="signup">
+                        <label for="password">password</label>
+                        <input type="password" id="password" placeholder="Enter your password">
+                    </div>
+                    <div class="signup">
+                        <label for="confirm">confirm password</label>
+                        <input type="password" id="confirm" placeholder="Confirm your password">
+                    </div>
+                    <input class="btn" type="button" value="sign up">
+                </form>
+            </div>
+        </div>
+        <div class="top">Top</div>
+    </section>
+    
+
+
+    <script src="app.js"></script>
+</body>
+</html>

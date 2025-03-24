@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+:root{
+    --primary-color:#fff;
+    --bg-color:#eee;
+    --shadow:0 0 0.7rem #fefefe;
+    --gap:1rem;
+    --secondary-color:#333;
+    --operator-color:#31ff13;
+    --clear-color:#ff3357;
+    --delete-color:#4575ff;
+}
+
+.container{
+    width: 100%;
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--gap);
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+#display{
+width: 35rem;
+padding: 4rem 1.5rem;
+border-radius:var(--gap) var(--gap) 0 0 ;
+text-align: right;
+border: none;
+background-color: var(--bg-color);
+font-size: 2.4rem;
+font-weight: 500;
+color: var(--secondary-color);
+}
+.button-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: var(--gap);
+    background-color: var(--bg-color);
+    width: 35rem;
+    border-radius:0 0 var(--gap) var(--gap) ;
+padding: var(--gap);
+}
+button{
+    width: 7rem;
+    height: 6rem;
+    border-radius:var(--gap);
+    border: none;
+    box-shadow: var(--shadow);
+    color: var(--secondary-color);
+    font-size: 2rem;
+    font-weight: 500;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.05);
+}
+.number{
+    background-color: var(--primary-color);
+}
+.number:hover{
+    background-color: transparent;
+}
+.operator{
+    background-color: var(--operator-color);
+}
+.delete{
+    background-color: var(--delete-color);
+}
+.clear{
+    background-color: var(--clear-color);
+}
